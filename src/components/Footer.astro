@@ -1,0 +1,88 @@
+---
+import "@/styles/globals.css";
+---
+
+<section class="flex flex-col gap-[7.94rem] bg-[#242424] px-4 py-[3.75rem]">
+  <div
+    class="flex flex-col items-center gap-[3.12rem] md:pl-[1.87rem] md:pr-8 xl:flex-row xl:px-[10.31rem]"
+  >
+    <div class="flex flex-col gap-5 text-center xl:text-left">
+      <h2
+        class="text-[2.5rem] font-bold leading-10 tracking-[-0.071rem] text-white"
+      >
+        Contact
+      </h2>
+      <p
+        class="text-base font-medium leading-relaxed text-[#D9D9D9] md:w-[27.8125rem]"
+      >
+        I would love to hear about your project and how I could help. Please
+        fill in the form, and I&#39;ll get back to you as soon as possible.
+      </p>
+    </div>
+    <form action="" class="">
+      <div
+        class="relative flex flex-col gap-[3.06rem] bg-transparent after:absolute after:-bottom-[5.44rem] after:left-0 after:h-[0.0625rem] after:w-[21.4375rem] after:bg-white after:opacity-50 md:after:w-[44.125rem]"
+      >
+        <label
+          for="userName"
+          class="relative text-base font-medium uppercase leading-relaxed tracking-[-0.01388rem] text-white opacity-50 after:absolute after:-bottom-4 after:left-0 after:h-[0.0625rem] after:w-[21.4375rem] after:bg-white after:opacity-50"
+        >
+          Name
+          <input type="text" name="" id="userName" class="bg-transparent" />
+        </label>
+        <label
+          for="userEmail"
+          class="relative text-base font-medium uppercase leading-relaxed tracking-[-0.01388rem] text-white opacity-50 after:absolute after:-bottom-4 after:left-0 after:h-[0.0625rem] after:w-[21.4375rem] after:bg-white after:opacity-50"
+        >
+          Email
+          <input type="text" name="" id="userEmail" class="bg-transparent" />
+        </label>
+        <label
+          for="userMessage"
+          class="relative text-base font-medium uppercase leading-relaxed tracking-[-0.01388rem] text-white opacity-50 after:absolute after:-bottom-4 after:left-0 after:h-[0.0625rem] after:w-[21.4375rem] after:bg-white after:opacity-50"
+        >
+          Message
+          <textarea name="" id="" cols="30" rows="5" class="bg-transparent"
+          ></textarea>
+        </label>
+        <button
+          type="submit"
+          class="relative self-end text-base font-bold uppercase leading-relaxed tracking-[0.14288rem] text-white after:absolute after:-bottom-4 after:right-0 after:h-[0.125rem] after:w-[9rem] after:bg-[#4EE1A0] after:opacity-50"
+          >Send Message</button
+        >
+      </div>
+    </form>
+  </div>
+
+  <div
+    class="mt-5 flex flex-col items-center gap-5 md:ml-[1.88rem] md:mr-[1.82rem] md:mt-[1.81rem] md:flex-row md:justify-between xl:mx-[10.31rem] xl:mt-[2.44rem]"
+  >
+    <!-- The Designer -->
+    <a
+      href="/"
+      class="text-2xl font-bold leading-8 tracking-[-0.02081rem] text-white md:text-[2rem] md:tracking-[-0.02775rem]"
+    >
+      adamkeyes
+    </a>
+    <!-- The Social Links -->
+    <div
+      class="socialWrapper flex items-center justify-between gap-8 xl:mr-[1.84rem]"
+    >
+      <a href="/"><img src="/images/icon-github.svg" alt="github" class="" /></a
+      >
+      <a href="/"
+        ><img
+          src="/images/icon-frontend-mentor.svg"
+          alt="frontendmentor"
+          class=""
+        /></a
+      >
+      <a href="/"
+        ><img src="/images/icon-linkedin.svg" alt="linkedin" class="" /></a
+      >
+      <a href="/"
+        ><img src="/images/icon-twitter.svg" alt="twitter" class="" /></a
+      >
+    </div>
+  </div>
+</section>
